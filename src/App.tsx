@@ -1,10 +1,10 @@
 import React from 'react'
-import './App.css'
+import TopNav from './components/TopNav'
 
 const App: React.FC = () => {
   return (
     <div className="App">
-      <p>some text</p>
+      <TopNav />
     </div>
   )
 }
